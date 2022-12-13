@@ -1,0 +1,47 @@
+body {
+  background-image: url('/images/back.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.container{
+    width: 30%;
+    position: fixed;
+    bottom: 17vh;
+    left: 20vh;
+}
+.container .btn-holder {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+@media (max-width: 800px) {
+    .btn-holder {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+.container .btn-holder button{
+    width: 17vh;
+    height: 7vh;
+    background-color: rgba(85, 7, 7, 0.911);
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 3vh;
+    color: white;
+    font-weight: 500;
+    margin: 5%;
+}
+
+.container .btn-holder button:hover{
+    
+    background-color:rgba(190, 38, 38, 0.911);
+    border-bottom: 3px solid orange;
+}
+
+.container .btn-holder a{
+    text-decoration: none;
+    color: white;
+}

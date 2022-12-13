@@ -1,0 +1,50 @@
+.container{
+    margin: auto;
+    width: 60%;
+}
+
+.container .header h2{
+    color: white;
+    text-align: center;
+  }
+
+  .container .form{
+      padding: 5%;
+  }
+
+  .container .form .form-group label{
+    color: white;
+    font-size: larger;
+  }
+
+  .container .form .form-group input{
+      background: none;
+      border: none;
+      border-radius: 0;
+      border-bottom: 1px solid white;
+      color:azure;
+  }
+
+  .container .form .form-group textarea{
+    background: none;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid white;
+    color: azure;
+  }
+
+  .container .form button{
+      width: 100%;
+      margin: 5% 0 5% 0;
+      background-color: rgb(66, 24, 24);
+      border: rgb(66, 24, 24);
+      color:aliceblue;
+  }
+
+  .container .form button:hover{
+    background-color:rgb(223, 99, 99);
+    border-bottom: 5px solid rgb(37, 23, 4);
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+    transition: all 0.5s ease;
+  }
